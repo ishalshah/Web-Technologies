@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="portfolio/bio.html " />
+    <title>Portfolio</title>
+    <meta charset="UTF-9" />
+    <meta name="description" content="my potfolio" />
+    <meta name="keywords" content="HTML" />
+    <meta property="title" content="Ishal's potfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
+    <meta property="og:url" content="https://www.instagram.com/ishael.0/?fbclid=IwAR2MvS0nczHw1LQIzPs3W3G5ef29BBbEu_EB5y1tNfdl4y0WSgd52cz5xbg " />
+    <meta property="og:type" content="Instagram profile" />
+  </head>
+  <!-- internal css -->
+  <style>
+    #Education h1:hover{
+        text-decoration: underline;
+        color:rgb(90, 18, 10);
+        font-size: 50px;
+    
+
+    }       
+  </style>
+  <!-- inline css -->
+  <body style="background-color: rgb(183, 229, 248)">
+    <nav>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#Hobbies">Hobbies</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </nav>
+    <div id="intro">
+      <h1>Ishal Bikram Shah</h1>
+      <img
+        src="NKR9CEDDYkA:1670517232694&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjzp_vRuer7AhUtUWwGHRjVDCwQ_AUoAXoECAIQAw&biw=1536&bih=746&dpr=1.25#imgrc=gfNH_nehTDj8lM "
+        height="600"
+      />
+      <p>Heyy I am Ishal Bikram Shah currrently living in Raniban. I can Djent</p>
+    </div>
+    <div id="Education">
+      <h1>Education</h1>
+    </div>
+    <div>
+      <table border="2" cellspacing="5">
+        <tr>
+          <th>Collage</th>
+          <th>Year</th>
+        </tr>
+        <tr>
+          <td>Trinity International collage</td>
+          <td>2020</td>
+          <a rel="nofollow" href=" https://www.trinity.edu.np/"
+            >Check out Trinity collage</a
+          ><br />
+        </tr>
+      </table>
+    </div>
+    <div class="Hobbies">
+      <h2>Hobbies</h2>
+      <ol>
+        <li>Digital art</li>
+        <li>Shredding</li>
+        <li>Riffing</li>
+      </ol>
+    </div>
+    <div id="Contact">
+      <h2>Contact me</h2>
+      <form>
+        <div>
+          <label>Name:</label>
+          <input type="text" />
+        </div>
+        <br />
+        <div>
+          <label>Email:</label>
+          <input type:"email" placeholder="ishalbikramshah@gmail.com">
+        </div>
+        <div>
+          <label>Message:</label>
+          <textarea></textarea>
+        </div>
+        <br />
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <p>
+        Contact me here:<a
+          href="https://myaccount.google.com/?hl=en&utm_source=OGB&utm_medium=act"
+          target="_blank"
+        >
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
