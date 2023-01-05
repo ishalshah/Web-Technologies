@@ -1,0 +1,30 @@
+.pixels{
+    width:50px;
+    border:1p solid#000;
+    background-color: rgb(233, 120, 120);
+}
+.percent{
+    width: 50%;
+    border: 2px solid #000;
+    background-color: lightseagreen;
+}
+.em{
+    width: 50%;
+    border: 3px solid #000;
+    background-color: lightgreen;
+}
+.rem{
+    font-size: 2rem;
+    border: 4px solid #000;
+    background-color: lightcoral;
+}
+.viewportwidth{
+    width: 50vh;
+    border: 5px solid #000;
+    background-color: lightcoral;
+}
+.viewportheight{
+    height: 50vh;
+    border: 6px solid #000;
+    background-color: lightseagreen;
+}
